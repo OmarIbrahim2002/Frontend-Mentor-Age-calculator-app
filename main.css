@@ -172,6 +172,10 @@ img:hover{
     .main{
         padding: 27px;
         box-shadow: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
     }
     .container{
         justify-content: center;
