@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="main.css">
+  <title>Frontend Mentor | Age calculator app</title>
+</head>
+<body>
+  <div class="back">
+    <div class="dots"></div>
+    <div class="braket"></div>
+    <div class="more"></div>
+    <div class="quote"></div>
+  </div>
+  <div class="main">
+    <h1>Enter Your Age</h1>
+    <div class="container">
+      <div class="date fw-800">
+        <div class="day">
+          <p>day</p>
+          <input type="number" name="day" id="day" placeholder="DD" maxlength="2">
+          <span class="required none">This field is Required</span>
+          <span class="wrong none">Most be a valid Day</span>
+        </div>
+        <div class="month">
+          <p>month</p>
+          <input type="number" name="month" id="month" placeholder="MM" maxlength="2">
+          <span class="required none">This field is Required</span>
+          <span class="wrong none">Most be a valid Month</span>
+        </div>
+        <div class="year">
+          <p>year</p>
+          <input type="number" name="year" id="year" placeholder="YYYY" minlength="4" maxlength="4">
+          <span class="required none">This field is Required</span>
+          <span class="wrong none">Most be a valid Year</span>
+        </div>
+        <span id="convert">
+          <img src="icon-arrow.svg" alt=".../">
+        </span>
+      </div>
+      <div class="result fw-800">
+        <p><span class="years">--</span>Years</p>
+        <p><span class="months">--</span>Months</p>
+        <p><span class="days">--</span>Days</p>
+      </div>
+    </div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://www.frontendmentor.io/profile/OmarIbrahim2002" target="_blank">Omar Ibrahim</a>.
+    </div>
+  </div>
+
+
+  <script src="main.js"></script>
+</body>
+</html>
